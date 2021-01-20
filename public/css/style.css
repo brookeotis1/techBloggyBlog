@@ -1,0 +1,23 @@
+:root {
+    --primary: #d2dfe0;
+    --secondary: #7f8586;
+    --tertiary: #3e5aa7;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    background: var(--secondary);
+    color: var(--dark);
+  }
+
+body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    background-color: var(--primary);
+  }
+
